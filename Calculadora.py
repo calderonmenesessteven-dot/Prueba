@@ -1,10 +1,17 @@
 def calculadora():
     print ("Bienvenido a la calculadora")
     print ("Operaciones disponibles:")
-    print ("1. Suma")
-    print ("2. Resta")
-    print ("3. Multiplicación")
-    print ("4. División")
+    
+    print ("---------------------------")
+    print ("|       1. Suma           |")
+    print ("---------------------------")
+    print ("|       2. Resta          |")
+    print ("---------------------------")
+    print ("|       3. Multiplicación |")
+    print ("---------------------------")
+    print ("|       4. División       |")
+    print ("---------------------------")
+
 
     continuar = "si"
 
@@ -33,4 +40,3 @@ def calculadora():
     else:
                     print("Operación no válida. Por favor, ingrese una operación correcta.")
 
-        
